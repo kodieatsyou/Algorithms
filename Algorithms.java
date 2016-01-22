@@ -1,6 +1,7 @@
 public class Algorithms {
   public static void main(String[] args) {
     int[] arr = {3, 2, 11, 12, 5, 2, 6};
+    sort(arr);
     for (int p=0; p<arr.length;p++) {
       System.out.println(arr[p]);
     }
